@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import CorevaLogo from './Logo'
 
 const navLinks = [
   { label: 'Home', href: '#' },
@@ -15,9 +16,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 glass-panel shadow-sm">
       <div className="flex justify-between items-center h-20 px-6 md:px-8 max-w-7xl mx-auto">
-        <div className="font-headline text-2xl font-extrabold tracking-tighter text-navy">
-          Coreva Logistics
-        </div>
+        <a href="#" aria-label="Coreva Logistics home">
+          <CorevaLogo variant="dark" className="h-10 w-auto" />
+        </a>
 
         <div className="hidden lg:flex items-center gap-8 font-headline text-sm font-semibold tracking-tight">
           {navLinks.map((link) => (

@@ -25,7 +25,7 @@ const CTASection = () => {
                 Request a Quote
               </a>
               <a
-                href="tel:2135550199"
+                href="tel:8402101449"
                 className="bg-transparent border-2 border-white/30 hover:border-white text-white font-bold px-10 py-5 rounded-xl transition-all text-sm uppercase tracking-widest min-w-[220px] text-center"
               >
                 Contact Dispatch

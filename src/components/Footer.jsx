@@ -92,8 +92,8 @@ const Footer = () => {
             <h4 className="text-white font-bold mb-6 text-xs uppercase tracking-widest">Connect</h4>
             <div className="space-y-3 mb-8">
               <p className="text-slate-400 text-sm">Los Angeles, CA</p>
-              <a href="tel:2135550199" className="block text-slate-400 hover:text-blue-400 transition-colors text-sm">
-                (213) 555-0199
+              <a href="tel:8402101449" className="block text-slate-400 hover:text-blue-400 transition-colors text-sm">
+                (840) 210-1449
               </a>
               <a
                 href="mailto:info@corevalogistics.com"
