@@ -119,10 +119,6 @@ const Footer = () => {
           <p className="text-slate-500 text-sm">
             &copy; 2024 Coreva Logistics. All rights reserved.
           </p>
-          <div className="flex items-center gap-6">
-            <span className="text-xs font-bold text-slate-600 uppercase tracking-widest">MC# 1234567</span>
-            <span className="text-xs font-bold text-slate-600 uppercase tracking-widest">DOT# 9876543</span>
-          </div>
         </div>
       </div>
     </footer>
